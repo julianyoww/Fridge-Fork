@@ -13,7 +13,7 @@
   } catch { storageFailed = true; }
   const state = id => notebook.recipes[id] || {saved:false,liked:false,cooked:false};
   const el = (tag, text, className) => {const node=document.createElement(tag);if(text)node.textContent=text;if(className)node.className=className;return node};
-  function persist(){try{localStorage.setItem(KEY,JSON.stringify(notebook));storageFailed=false;}catch{storageFailed=true;}$('#storage-status').textContent=storageFailed?'Your browser could not save these changes. They will last only for this visit.':'';}
+  function persist(){try{localStorage.setItem(KEY,JSON.stringify(notebook));storageFailed=false;}catch{storageFailed=true;}$('#shopping-storage-status').textContent=$('#storage-status').textContent=storageFailed?'Your browser could not save these changes. They will last only for this visit.':'';}
   function reminder(id){const s=state(id);return [s.liked?'♥ You liked this recipe':'',s.cooked?'✓ You’ve cooked this before':''].filter(Boolean).join(' · ')}
   function refresh(){renderSaved();renderGroceries();renderResults();if($('#recipe-dialog').open){const id=$('#recipe-detail').dataset.recipeId;if(id)decorateDetail(id);}}
   function toggle(id,key){const s=state(id);s[key]=!s[key];if((key==='liked'||key==='cooked')&&s[key])s.saved=true;notebook.recipes[id]=s;persist();refresh();}
@@ -40,8 +40,10 @@
   $('#clear-bought').onclick=()=>{notebook.groceries=notebook.groceries.filter(i=>!i.checked);persist();renderGroceries();};
   $('#library-filter').onchange=renderSaved;
   $('#ready').onchange=()=>renderResults();
-  function show(saved){$('#discover-view').hidden=saved;$('#saved-view').hidden=!saved;$('#nav-discover').setAttribute('aria-pressed',String(!saved));$('#nav-saved').setAttribute('aria-pressed',String(saved));if(saved){renderSaved();renderGroceries();}}
-  $('#nav-discover').onclick=()=>show(false);$('#nav-saved').onclick=()=>show(true);
-  $('#storage-status').textContent=storageFailed?'Saved data could not be read. Changes may last only for this visit.':'';
+  function show(view){for(const name of ['discover','saved','shopping']){$('#'+name+'-view').hidden=name!==view;$('#nav-'+name).setAttribute('aria-pressed',String(name===view));}if(view==='saved')renderSaved();if(view==='shopping')renderGroceries();}
+  $('#nav-discover').onclick=()=>show('discover');$('#nav-saved').onclick=()=>show('saved');$('#nav-shopping').onclick=()=>show('shopping');
+  const today=new Date();$('#shopping-date').value=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');
+  $('#calendar-form').onsubmit=e=>{e.preventDefault();const pending=notebook.groceries.filter(i=>!i.checked);if(!pending.length){$('#calendar-status').textContent='Add an item to buy before planning your trip.';return;}const lines=pending.map(i=>[Kitchen.label(i.name),...i.sources.map(id=>{const r=recipes.find(r=>r.id===id);return r.name+': '+(i.sourceAmounts?.[id]||'check recipe quantities');})].join(' — '));try{const url=ShoppingCalendar.url($('#shopping-date').value,$('#shopping-title').value,lines);const opened=window.open(url,'_blank');if(opened)opened.opener=null;$('#calendar-status').textContent=opened?'Review the event in Google Calendar and press Save. Your list stays here.':'Allow pop-ups for this app, then try again.';}catch(error){$('#calendar-status').textContent=error.message;}};
+  $('#shopping-storage-status').textContent=$('#storage-status').textContent=storageFailed?'Saved data could not be read. Changes may last only for this visit.':'';
   refresh();
 })();

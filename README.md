@@ -30,7 +30,7 @@ Regenerate the collection and provenance after editing the recipe source:
 
 ```sh
 python3 scripts/build-recipes.py
-node --test tests/matching.cjs
+node --test tests/*.cjs
 ```
 
 The automated tests check recipe structure and matching logic; they do not validate cooking results.
@@ -40,3 +40,9 @@ The automated tests check recipe structure and matching logic; they do not valid
 GitHub Actions publishes `dist` on pushes to `main`. Pages must use GitHub Actions as its source. Updates to installed copies may require closing and reopening the app.
 
 Fridge entries last for the current visit. Saved recipes, cooking history, grocery lists, and appearance are stored in this browser, without account synchronization. Clearing browser data removes them. GitHub feedback is voluntary and opens an external issue form; the app does not upload fridge entries automatically. Google Fonts may be requested when online.
+
+## Shopping trips and region
+
+The Shopping list tab uses the existing notebook storage, so previous groceries remain available. Add to Google Calendar opens an all-day event draft with unchecked items for the selected date; the user must save it in Google Calendar. This is a one-time snapshot, not account linking or synchronization. No Google tokens are stored. Calendar links need an internet connection.
+
+Choose Your region under More options. Outside the US is the default; US recipe measurements and ounce/pound entry options appear only when United States is selected. Region is stored on this browser and is not detected from IP or language.
