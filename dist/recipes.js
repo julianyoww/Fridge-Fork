@@ -2107,7 +2107,7 @@ const RECIPE_DATA = [
     "steps": [
       "Combine oats, milk and 100 ml water in a saucepan.",
       "Bring to a gentle simmer, stirring frequently. Cook for 5–7 minutes, or follow the oat packet directions.",
-      "Mash one banana into the porridge. Divide between bowls and top with slices of the other banana."
+      "Mash half the banana amount into the porridge. Divide between bowls and top with slices of the remaining banana."
     ],
     "provenance": {
       "author": "Fridge & Fork / AI-assisted draft",
