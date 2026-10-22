@@ -1,6 +1,19 @@
 # Recipe sourcing and review policy
 
-The 40 recipe records in this release are independently composed, AI-assisted drafts for Fridge & Fork. They draw on general cooking methods rather than copied recipe publications. They have **not been kitchen-tested**. No third-party recipe photography is included. This is not a guarantee of legal clearance in every jurisdiction or a claim of exclusive rights to common dishes.
+This release contains 40 independently composed, AI-assisted drafts and 10 Filipino recipe adaptations from Wikibooks. None has been kitchen-tested by Fridge & Fork. No third-party recipe photography is included. Openly licensed does not mean copyright-free or a guarantee of accuracy.
+
+## Licensed Filipino collection
+
+Each record in `data/licensed-filipino.json` credits Wikibooks contributors, links the source, exact revision and contributor history, states our changes, and links CC BY-SA 4.0. These adapted recipe records are released under that same license. You may copy and adapt them, including commercially, with attribution, a license link, a change notice and ShareAlike. Do not imply endorsement. No warranties are provided. This license notice applies to the identified recipe records, not a blanket relicensing of the app code or unrelated original recipes.
+
+License: https://creativecommons.org/licenses/by-sa/4.0/
+Source policy: https://en.wikibooks.org/wiki/Wikibooks:Copyrights
+Source and license check: 2026-10-22.
+
+The first batch covers champorado, maja blanca, lumpiang Shanghai, kare-kare, paksiw na bangus, chicken sopas, pinakbet, nilagang baka, turon and Bicol Express. Quantities, time estimates and difficulty are app adaptations requiring cooking validation. This is not an exhaustive collection of online recipes. Search results with no reuse license are excluded. No images are imported.
+
+Easy: straightforward techniques, possibly a long simmer. Intermediate: rolling, thickening or coordinating stages. Chef level: multiple preparations or demanding heat control. Levels are editorial estimates, not professional certification. Ingredient availability is assessed separately.
+
 
 ## Publication records
 
@@ -20,7 +33,7 @@ Prefer independently developed recipes. For contributed content obtain written p
 - FoodSafety.gov minimum temperatures: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
 - Food Standards Agency rice handling: https://www.food.gov.uk/sites/default/files/media/document/sfbb-chinese-05-cooking-04-rice_0.pdf
 
-Safety references checked 2026-10-12. Recipe prose is independently written, and references do not endorse this app.
+Safety references checked 2026-10-12. Safety references do not endorse this app. Licensed adaptations are credited separately above.
 
 ## Matching promises
 

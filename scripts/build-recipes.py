@@ -1,4 +1,4 @@
-"""Author-maintained recipe drafts. No scraped recipe text or third-party recipe images."""
+"""Author-maintained drafts and explicitly licensed adaptations; no recipe images."""
 import json
 from pathlib import Path
 rows=[]
@@ -47,6 +47,13 @@ add('lemon-chicken','Lemon garlic chicken','International','main',25,'chicken br
 add('potato-soup','Potato carrot soup','International','main',30,'potatoes:350:g|carrots:150:g|onion:1:piece|oil:15:ml|salt:2:g','Peel and dice potatoes and carrots; chop onion.~Heat oil in a saucepan and soften onion for four minutes.~Add potatoes, carrots, salt and 650 ml water. Bring to a boil, then simmer for 20 minutes or until soft.~Mash some vegetables with a potato masher to thicken the soup. Add water if needed.')
 add('oat-porridge','Banana oat porridge','International','main',10,'rolled oats:100:g|milk:400:ml|banana:2:piece','Combine oats, milk and 100 ml water in a saucepan.~Bring to a gentle simmer, stirring frequently. Cook for 5–7 minutes, or follow the oat packet directions.~Mash half the banana amount into the porridge. Divide between bowls and top with slices of the remaining banana.')
 assert len(rows)==40,len(rows)
-Path('dist/recipes.js').write_text('/* Independently authored recipe drafts; see sourcing-policy.md. */\nconst RECIPE_DATA = '+json.dumps(rows,ensure_ascii=False,indent=2)+';\n')
+intermediate={'omelette','tortang-talong','tuna-omelette','mushroom-omelette','potato-hash','vegetable-rice'}
+for r in rows:
+    r['difficulty']='intermediate' if r['id'] in intermediate else 'easy'
+    r['difficultyReason']='Control pan heat and coordinate several cooking stages.' if r['difficulty']=='intermediate' else 'Everyday preparation with a straightforward cooking method; time can still be long.'
+rows.extend(json.loads(Path('data/licensed-filipino.json').read_text()))
+assert len({r['id'] for r in rows})==len(rows)
+
+Path('dist/recipes.js').write_text('/* Recipe drafts and CC BY-SA adaptations; see per-record provenance and sourcing-policy.html. */\nconst RECIPE_DATA = '+json.dumps(rows,ensure_ascii=False,indent=2)+';\n')
 Path('recipe-provenance.json').write_text(json.dumps([{'id':r['id'],'name':r['name'],**r['provenance']} for r in rows],ensure_ascii=False,indent=2)+'\n')
 print(f'Wrote {len(rows)} draft recipes')

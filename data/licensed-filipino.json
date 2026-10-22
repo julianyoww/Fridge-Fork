@@ -1,0 +1,766 @@
+[
+  {
+    "id": "champorado",
+    "name": "Champorado",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 30,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "One pot; stir regularly to prevent sticking.",
+    "items": [
+      {
+        "id": "glutinous rice",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "cocoa powder",
+        "quantity": 12.0,
+        "unit": "g"
+      },
+      {
+        "id": "sugar",
+        "quantity": 30.0,
+        "unit": "g"
+      },
+      {
+        "id": "evaporated milk",
+        "quantity": 100.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Rinse the glutinous rice and drain.",
+      "Put rice and 600 ml water in a saucepan. Bring to a boil, then lower to a gentle simmer.",
+      "Mix cocoa with a little hot cooking liquid until smooth. Stir it into the pot with the sugar.",
+      "Cook for about 20–25 minutes, stirring frequently, until the rice is soft. Add water as needed; finish with evaporated milk."
+    ],
+    "notes": "",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Champorado_(Chocolate_Rice_Porridge)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3AChamporado_%28Chocolate_Rice_Porridge%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4517854",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3AChamporado_%28Chocolate_Rice_Porridge%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined a two-person batch, water and cocoa quantities; reduced sugar; estimated time and rewrote instructions.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "maja-blanca",
+    "name": "Maja blanca",
+    "cuisine": "Filipino",
+    "role": "dessert",
+    "time": 90,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Control thickening, then allow the pudding to chill.",
+    "items": [
+      {
+        "id": "cornstarch",
+        "quantity": 30.0,
+        "unit": "g"
+      },
+      {
+        "id": "coconut milk",
+        "quantity": 240.0,
+        "unit": "ml"
+      },
+      {
+        "id": "condensed milk",
+        "quantity": 60.0,
+        "unit": "g"
+      },
+      {
+        "id": "coconut cream",
+        "quantity": 60.0,
+        "unit": "ml"
+      },
+      {
+        "id": "sugar",
+        "quantity": 15.0,
+        "unit": "g"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Whisk the cornstarch into one quarter of the cold coconut milk until smooth.",
+      "Gently heat the remaining coconut milk, coconut cream, condensed milk and sugar in a saucepan.",
+      "Whisk in the slurry. Stir continuously over low heat for 10–15 minutes until thick, smooth and bubbling gently.",
+      "Spoon into a shallow container. Refrigerate promptly and let it set for at least one hour before cutting."
+    ],
+    "notes": "Time includes at least 60 minutes chilling. Refrigerate leftovers. Contains milk; check all product labels.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Maja_Blanca_(Coconut_Milk_Pudding)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3AMaja_Blanca_%28Coconut_Milk_Pudding%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4389365",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3AMaja_Blanca_%28Coconut_Milk_Pudding%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Small-batch metric formulation, no optional toppings, revised cooling instructions and estimated total time.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "lumpiang-shanghai",
+    "name": "Lumpiang Shanghai",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 60,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Prepare an even filling, roll tightly and control frying heat.",
+    "items": [
+      {
+        "id": "ground pork",
+        "quantity": 200.0,
+        "unit": "g"
+      },
+      {
+        "id": "garlic",
+        "quantity": 1.0,
+        "unit": "clove"
+      },
+      {
+        "id": "carrots",
+        "quantity": 50.0,
+        "unit": "g"
+      },
+      {
+        "id": "eggs",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "spring roll wrappers",
+        "quantity": 10.0,
+        "unit": "piece"
+      },
+      {
+        "id": "oil",
+        "quantity": 500.0,
+        "unit": "ml"
+      },
+      {
+        "id": "banana ketchup",
+        "quantity": 30.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Finely grate carrot and mince garlic. Mix with pork and beaten egg; keep the raw filling chilled while preparing the wrappers.",
+      "Divide filling between wrappers in thin logs. Fold the sides inward, roll firmly, and seal the edges with a little water.",
+      "Heat oil in a deep, heavy pan to about 170°C. Keep the pan less than half full and fry small batches, turning carefully.",
+      "Cook until crisp and the center of the filling reaches 71°C. Check with a thermometer; a brown wrapper does not prove the meat is cooked.",
+      "Drain on a rack and serve with banana ketchup."
+    ],
+    "notes": "Oil is a pan allowance, not the amount eaten. Use enough for your pan while keeping it less than half full; do not multiply oil depth when increasing servings.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Lumpiang_Shanghai_(Filipino_Pork_Spring_Rolls)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3ALumpiang_Shanghai_%28Filipino_Pork_Spring_Rolls%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4615010",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3ALumpiang_Shanghai_%28Filipino_Pork_Spring_Rolls%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined two-serving quantities, wrapper count, frying oil allowance and temperature checks; rewrote method.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "kare-kare",
+    "name": "Kare-kare",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 210,
+    "servings": 2,
+    "difficulty": "chef",
+    "difficultyReason": "Coordinate a long braise, separate vegetables and a thickened peanut sauce.",
+    "items": [
+      {
+        "id": "oxtail",
+        "quantity": 600.0,
+        "unit": "g"
+      },
+      {
+        "id": "annatto seeds",
+        "quantity": 10.0,
+        "unit": "g"
+      },
+      {
+        "id": "eggplant",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "green beans",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "banana blossom",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "garlic",
+        "quantity": 3.0,
+        "unit": "clove"
+      },
+      {
+        "id": "onion",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "oil",
+        "quantity": 15.0,
+        "unit": "ml"
+      },
+      {
+        "id": "ground peanuts",
+        "quantity": 60.0,
+        "unit": "g"
+      },
+      {
+        "id": "toasted rice flour",
+        "quantity": 20.0,
+        "unit": "g"
+      },
+      {
+        "id": "fish sauce",
+        "quantity": 10.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Cover oxtail with about 1.2 litres water in a heavy pot. Bring to a boil, skim, then simmer gently for 2½–3 hours or until fork-tender. Add hot water to keep it covered.",
+      "Soak annatto seeds in 100 ml warm water, then strain and discard the seeds.",
+      "Slice eggplant, trim beans and slice the tender prepared banana blossom. Boil the vegetables separately until tender and drain.",
+      "Soften chopped onion and garlic in oil. Add annatto liquid, ground peanuts, toasted rice flour and enough oxtail broth to make a smooth sauce.",
+      "Simmer while stirring until thickened. Fold in the tender meat and vegetables, add fish sauce and heat through. Thin with broth as needed."
+    ],
+    "notes": "Contains peanuts and fish. Chef level describes coordination, not professional certification. Prepared banana blossom has tough outer layers removed.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Kare-Kare_(Oxtail_and_Vegetables_in_Peanut_Sauce)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3AKare-Kare_%28Oxtail_and_Vegetables_in_Peanut_Sauce%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4629624",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3AKare-Kare_%28Oxtail_and_Vegetables_in_Peanut_Sauce%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined metric two-serving quantities and estimated braising time; specified fish sauce from the source method; rewrote steps.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "paksiw-bangus",
+    "name": "Paksiw na bangus",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 40,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "A gentle one-pot simmer using fish already cleaned by the fishmonger.",
+    "items": [
+      {
+        "id": "milkfish",
+        "quantity": 400.0,
+        "unit": "g"
+      },
+      {
+        "id": "carrots",
+        "quantity": 80.0,
+        "unit": "g"
+      },
+      {
+        "id": "bitter melon",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "garlic",
+        "quantity": 4.0,
+        "unit": "clove"
+      },
+      {
+        "id": "green chili",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "salt",
+        "quantity": 1.0,
+        "unit": "g"
+      },
+      {
+        "id": "pepper",
+        "quantity": 0.5,
+        "unit": "g"
+      },
+      {
+        "id": "vinegar",
+        "quantity": 60.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Use scaled, fully gutted milkfish cut into steaks. Check for bones; slice carrot and deseeded bitter melon.",
+      "Arrange vegetables, crushed garlic and chili in a saucepan, then place fish on top.",
+      "Add salt, pepper, vinegar and 120 ml water. Bring to a gentle boil, cover, then lower the heat.",
+      "Simmer gently for about 15–20 minutes, until vegetables are tender and fish reaches 63°C at its thickest part. Add a little water if the pan becomes dry. Serve carefully; milkfish has many fine bones."
+    ],
+    "notes": "",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Paksiw_na_Bangus_(Milkfish_Stewed_in_Vinegar)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3APaksiw_na_Bangus_%28Milkfish_Stewed_in_Vinegar%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4380982",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3APaksiw_na_Bangus_%28Milkfish_Stewed_in_Vinegar%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Used fully gutted fish instead of retained innards, smaller metric portions, reduced salt and added temperature/bone checks.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "chicken-sopas",
+    "name": "Chicken sopas",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 40,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "One pot; add vegetables and milk in stages.",
+    "items": [
+      {
+        "id": "oil",
+        "quantity": 15.0,
+        "unit": "ml"
+      },
+      {
+        "id": "garlic",
+        "quantity": 2.0,
+        "unit": "clove"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "chicken thigh",
+        "quantity": 200.0,
+        "unit": "g"
+      },
+      {
+        "id": "salt",
+        "quantity": 1.0,
+        "unit": "g"
+      },
+      {
+        "id": "pepper",
+        "quantity": 0.5,
+        "unit": "g"
+      },
+      {
+        "id": "elbow macaroni",
+        "quantity": 80.0,
+        "unit": "g"
+      },
+      {
+        "id": "carrots",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "cabbage",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "evaporated milk",
+        "quantity": 150.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Dice boneless chicken and carrot; chop onion, garlic and cabbage.",
+      "Warm oil in a saucepan. Soften onion and garlic, then add chicken, salt and pepper.",
+      "Add 600 ml water. Bring to a boil and simmer for about 10 minutes.",
+      "Add macaroni and carrot. Simmer according to the pasta packet, adding cabbage for the final few minutes. Check that chicken reaches 74°C.",
+      "Lower the heat and stir in evaporated milk. Warm gently without a vigorous boil and serve promptly; add water if the pasta absorbs too much broth."
+    ],
+    "notes": "",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Chicken_Sopas",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Sopas",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4518369",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Sopas?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Specified boneless chicken, two-serving weights, water and seasoning; added staged cooking and chicken temperature.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "pinakbet",
+    "name": "Pinakbet",
+    "cuisine": "Filipino",
+    "role": "side",
+    "time": 40,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Add vegetables in stages so each becomes tender.",
+    "items": [
+      {
+        "id": "oil",
+        "quantity": 15.0,
+        "unit": "ml"
+      },
+      {
+        "id": "garlic",
+        "quantity": 2.0,
+        "unit": "clove"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "tomatoes",
+        "quantity": 120.0,
+        "unit": "g"
+      },
+      {
+        "id": "shrimp paste",
+        "quantity": 15.0,
+        "unit": "g"
+      },
+      {
+        "id": "bitter melon",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "sweet potato",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "green beans",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "eggplant",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "okra",
+        "quantity": 100.0,
+        "unit": "g"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Chop onion and tomatoes, mince garlic, and cut vegetables into even bite-size pieces. Remove bitter melon seeds.",
+      "Warm oil and soften onion and garlic. Add tomatoes and shrimp paste; cook for five minutes.",
+      "Add sweet potato, bitter melon and 100 ml water. Cover and simmer until almost tender, checking the pan does not dry out.",
+      "Add beans, eggplant and okra. Cover and cook until all vegetables are tender, stirring gently. Serve as a side; rice is separate."
+    ],
+    "notes": "Contains shellfish from shrimp paste; this version is not vegetarian.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Pinakbet",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3APinakbet",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4499838",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3APinakbet?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Reduced to a two-serving side, adjusted shrimp paste, specified water and omitted extra salt and serving rice.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "nilagang-baka",
+    "name": "Nilagang baka",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 180,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "Straightforward simmering, with a long wait for tender beef.",
+    "items": [
+      {
+        "id": "beef ribs",
+        "quantity": 600.0,
+        "unit": "g"
+      },
+      {
+        "id": "pepper",
+        "quantity": 0.5,
+        "unit": "g"
+      },
+      {
+        "id": "onion",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "potatoes",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "cabbage",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "bok choy",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "corn cob",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "salt",
+        "quantity": 2.0,
+        "unit": "g"
+      },
+      {
+        "id": "spring onion",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "saba banana",
+        "quantity": 1.0,
+        "unit": "piece"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Put beef ribs, quartered onion, pepper and salt in a pot with about 1.2 litres water. Bring to a boil and skim the surface.",
+      "Lower the heat and simmer for 2–2½ hours, or until beef is fork-tender. Top up water to keep the meat covered.",
+      "Cut corn into sections and potatoes into chunks. Add them with peeled, sliced saba and simmer until tender, about 15–20 minutes.",
+      "Add cabbage, bok choy and sliced spring onion. Simmer until the greens are cooked and serve with the broth."
+    ],
+    "notes": "",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Nilagang_Baka_(Boiled_Beef_and_Vegetables_in_Broth)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3ANilagang_Baka_%28Boiled_Beef_and_Vegetables_in_Broth%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4630367",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3ANilagang_Baka_%28Boiled_Beef_and_Vegetables_in_Broth%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined two-serving quantities, water and time; staggered vegetables and added the greens omitted from source procedure.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "turon",
+    "name": "Turon with caramel",
+    "cuisine": "Filipino",
+    "role": "dessert",
+    "time": 40,
+    "servings": 2,
+    "difficulty": "chef",
+    "difficultyReason": "Seal the rolls, manage hot oil, then coat in hot caramel.",
+    "items": [
+      {
+        "id": "saba banana",
+        "quantity": 2.0,
+        "unit": "piece"
+      },
+      {
+        "id": "spring roll wrappers",
+        "quantity": 8.0,
+        "unit": "piece"
+      },
+      {
+        "id": "oil",
+        "quantity": 500.0,
+        "unit": "ml"
+      },
+      {
+        "id": "brown sugar",
+        "quantity": 60.0,
+        "unit": "g"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Peel saba and cut each lengthwise into four pieces. Place one piece on each wrapper.",
+      "Fold the sides in, roll snugly, and seal with a little water. Keep the outside dry.",
+      "Heat oil to about 170°C in a heavy pan kept less than half full. Fry in small batches until golden and the banana is tender; drain on a rack.",
+      "In a separate heavy pan, gently heat brown sugar until melted. Remove from heat and turn the rolls in the caramel using tongs.",
+      "Let the coating cool before eating. Hot caramel causes severe burns; do not touch it or add water to hot oil."
+    ],
+    "notes": "Oil is a pan allowance, not the amount eaten. Do not multiply oil depth when scaling; cook in batches. Chef level reflects hot caramel handling.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Turon_(Filipino_Plantain_Spring_Rolls)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3ATuron_%28Filipino_Plantain_Spring_Rolls%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4480707",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3ATuron_%28Filipino_Plantain_Spring_Rolls%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined eight-roll batch, metric sugar and oil allowance, omitted optional jackfruit and added hot-oil/caramel cautions.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "bicol-express",
+    "name": "Bicol Express",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 65,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Simmer pork until tender while keeping coconut sauce from scorching.",
+    "items": [
+      {
+        "id": "oil",
+        "quantity": 10.0,
+        "unit": "ml"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "garlic",
+        "quantity": 3.0,
+        "unit": "clove"
+      },
+      {
+        "id": "pork belly",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "id": "shrimp paste",
+        "quantity": 15.0,
+        "unit": "g"
+      },
+      {
+        "id": "bird eye chili",
+        "quantity": 2.0,
+        "unit": "piece"
+      },
+      {
+        "id": "sugar",
+        "quantity": 5.0,
+        "unit": "g"
+      },
+      {
+        "id": "pepper",
+        "quantity": 0.5,
+        "unit": "g"
+      },
+      {
+        "id": "coconut milk",
+        "quantity": 200.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Cut pork belly into small cubes. Chop onion, garlic and chilies; wash hands after handling chili and avoid touching your eyes.",
+      "Warm oil and soften onion and garlic. Add pork and cook, turning, until lightly browned.",
+      "Stir in shrimp paste, chilies, sugar and pepper. Add coconut milk and 100 ml water.",
+      "Simmer gently for about 40–50 minutes until pork is tender, stirring and adding water if needed. Check pork reaches at least 63°C with a three-minute rest; continue cooking for tenderness."
+    ],
+    "notes": "Contains shellfish. Chili heat varies; use fewer chilies for a milder dish.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Bicol_Express",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3ABicol_Express",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4511534",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3ABicol_Express?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Substantially reduced shrimp paste and chilies, defined two-serving metric amounts, added water, timing and doneness checks.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  }
+]
