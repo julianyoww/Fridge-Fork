@@ -762,5 +762,410 @@
       "testDate": null,
       "reviewer": null
     }
+  },
+  {
+    "id": "pork-binagoongan",
+    "name": "Pork binagoongan with shrimp",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 65,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Braise pork first, then time the vegetables and shrimp.",
+    "items": [
+      {
+        "id": "pork shoulder",
+        "quantity": 250.0,
+        "unit": "g"
+      },
+      {
+        "id": "shrimp",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "bitter melon",
+        "quantity": 80.0,
+        "unit": "g"
+      },
+      {
+        "id": "oil",
+        "quantity": 15.0,
+        "unit": "ml"
+      },
+      {
+        "id": "garlic",
+        "quantity": 3.0,
+        "unit": "clove"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "tomatoes",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "shrimp paste",
+        "quantity": 20.0,
+        "unit": "g"
+      },
+      {
+        "id": "vinegar",
+        "quantity": 30.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Cut pork into small cubes. Chop onion and tomatoes, mince garlic, and slice deseeded bitter melon. Keep peeled, deveined shrimp refrigerated.",
+      "Heat oil in a saucepan and brown the pork. Add onion, garlic and tomatoes; cook until the onion softens.",
+      "Add shrimp paste, vinegar and 250 ml water. Bring to a boil, then cover and simmer for 40–50 minutes until pork is tender, adding water if needed.",
+      "Add bitter melon and cook until tender. Add shrimp near the end and cook until pearly and opaque throughout. Check pork doneness before serving."
+    ],
+    "notes": "Contains shellfish. This source variation includes shrimp and bitter melon. Rice is separate; shrimp paste saltiness varies by brand.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Binagoongan (Sautéed Pork with Shrimp Paste)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3ABinagoongan_%28Saut%C3%A9ed_Pork_with_Shrimp_Paste%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4511535",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3ABinagoongan_%28Saut%C3%A9ed_Pork_with_Shrimp_Paste%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined two-person metric quantities, specified pork shoulder, reduced shrimp paste and added shrimp later to avoid prolonged cooking.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "lechon-paksiw",
+    "name": "Lechon paksiw",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 50,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "Gently simmer already-cooked pork and thicken the sauce.",
+    "items": [
+      {
+        "id": "cooked roast pork",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "id": "vinegar",
+        "quantity": 30.0,
+        "unit": "ml"
+      },
+      {
+        "id": "soy sauce",
+        "quantity": 15.0,
+        "unit": "ml"
+      },
+      {
+        "id": "liver sauce",
+        "quantity": 100.0,
+        "unit": "ml"
+      },
+      {
+        "id": "garlic",
+        "quantity": 3.0,
+        "unit": "clove"
+      },
+      {
+        "id": "pepper",
+        "quantity": 0.5,
+        "unit": "g"
+      },
+      {
+        "id": "brown sugar",
+        "quantity": 10.0,
+        "unit": "g"
+      },
+      {
+        "id": "banana blossom",
+        "quantity": 50.0,
+        "unit": "g"
+      },
+      {
+        "id": "cornstarch",
+        "quantity": 5.0,
+        "unit": "g"
+      },
+      {
+        "id": "bay leaf",
+        "quantity": 1.0,
+        "unit": "piece"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Use safely refrigerated, boneless roast pork leftovers. Cut into bite-size pieces. Slice the tender prepared banana blossom and crush garlic.",
+      "Place pork, garlic, pepper, sugar, banana blossom and bay leaf in a pot with 300 ml water. Bring to a boil and simmer gently for about 25 minutes.",
+      "Add vinegar, soy sauce and liver sauce. Simmer for 10–15 minutes, stirring and adding water if the sauce becomes too thick.",
+      "Mix cornstarch with a little cold water. Stir into the simmering sauce and cook until thickened. Reheat the pork to 74°C throughout. Remove bay leaf before serving."
+    ],
+    "notes": "Requires cooked roast pork, not raw pork. Use leftovers refrigerated promptly; reheating does not make spoiled or improperly stored food safe. Check liver sauce ingredients for allergens.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Lechon Paksiw (Pork Roast Leftovers in Sweet and Sour Sauce)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3ALechon_Paksiw_%28Pork_Roast_Leftovers_in_Sweet_and_Sour_Sauce%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4506562",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3ALechon_Paksiw_%28Pork_Roast_Leftovers_in_Sweet_and_Sour_Sauce%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined a smaller two-serving batch, reduced liquid and thickener, specified boneless cooked pork and added leftover reheating check.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "filipino-spaghetti",
+    "name": "Filipino-style spaghetti",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 40,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Coordinate a meat sauce with pasta cooked in a separate pot.",
+    "items": [
+      {
+        "id": "oil",
+        "quantity": 10.0,
+        "unit": "ml"
+      },
+      {
+        "id": "hot dogs",
+        "quantity": 80.0,
+        "unit": "g"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "garlic",
+        "quantity": 2.0,
+        "unit": "clove"
+      },
+      {
+        "id": "ground pork",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "tomato paste",
+        "quantity": 15.0,
+        "unit": "g"
+      },
+      {
+        "id": "banana ketchup",
+        "quantity": 60.0,
+        "unit": "ml"
+      },
+      {
+        "id": "tomato puree",
+        "quantity": 200.0,
+        "unit": "g"
+      },
+      {
+        "id": "chicken stock",
+        "quantity": 60.0,
+        "unit": "ml"
+      },
+      {
+        "id": "soy sauce",
+        "quantity": 10.0,
+        "unit": "ml"
+      },
+      {
+        "id": "dry spaghetti",
+        "quantity": 180.0,
+        "unit": "g"
+      },
+      {
+        "id": "cheese",
+        "quantity": 40.0,
+        "unit": "g"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Slice hot dogs, chop onion and garlic, and grate cheese. Heat oil in a pan, brown hot dogs and lift onto a plate.",
+      "Soften onion in the same pan. Add garlic and pork mince, breaking the meat into small pieces as it cooks.",
+      "Stir in tomato paste, then return hot dogs. Add banana ketchup, tomato puree, chicken stock and soy sauce. Simmer for 10–15 minutes, stirring frequently. Check the pork reaches 71°C and follow hot-dog package heating instructions.",
+      "Meanwhile, boil spaghetti according to its packet and drain. Toss with the hot sauce, divide between bowls and top with cheese."
+    ],
+    "notes": "Contains meat and dairy; pasta and soy sauce commonly contain wheat. Check hot-dog and sauce labels. Use dry spaghetti; cooked pasta is not equivalent by weight.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Filipino-style Spaghetti",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3AFilipino-style_Spaghetti",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4457343",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3AFilipino-style_Spaghetti?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined a two-person metric batch, omitted extra salt, retained the sweet sauce style and added meat temperature guidance.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "kwek-kwek",
+    "name": "Kwek-kwek",
+    "cuisine": "Filipino",
+    "role": "side",
+    "time": 25,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Coat cooked quail eggs and fry small batches at a controlled temperature.",
+    "items": [
+      {
+        "id": "cooked quail eggs",
+        "quantity": 12.0,
+        "unit": "piece"
+      },
+      {
+        "id": "all purpose flour",
+        "quantity": 60.0,
+        "unit": "g"
+      },
+      {
+        "id": "annatto powder",
+        "quantity": 1.0,
+        "unit": "g"
+      },
+      {
+        "id": "oil",
+        "quantity": 500.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Start with hard-cooked, peeled quail eggs. Pat their surfaces dry.",
+      "Mix flour and food-grade annatto powder. Whisk in cool water gradually, starting with 60 ml and adding just enough to make a thick coating batter.",
+      "Heat oil to about 180°C in a deep heavy pan kept less than half full. Coat the eggs in batter and carefully lower small batches into the oil.",
+      "Fry until the coating is cooked and lightly golden and the eggs are hot throughout. Drain on a rack and allow to cool slightly before eating."
+    ],
+    "notes": "Contains eggs and wheat. Time starts with cooked eggs. Oil is a pan allowance, not consumption; keep the pan less than half full and cook in batches instead of multiplying oil depth. Dipping sauce is separate.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Kwek-Kwek (Deep-Fried Quail Eggs)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3AKwek-Kwek_%28Deep-Fried_Quail_Eggs%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4365821",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3AKwek-Kwek_%28Deep-Fried_Quail_Eggs%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Specified egg count, metric flour/annatto and oil allowance, adjusted water by batter consistency and added handling instructions.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "sinigang-pork",
+    "name": "Sinigang na baboy",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 75,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Simmer pork until tender and add vegetables in stages.",
+    "items": [
+      {
+        "id": "pork belly",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "id": "onion",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "tomatoes",
+        "quantity": 200.0,
+        "unit": "g"
+      },
+      {
+        "id": "tamarind paste",
+        "quantity": 20.0,
+        "unit": "g"
+      },
+      {
+        "id": "radish",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "green beans",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "water spinach",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "fish sauce",
+        "quantity": 10.0,
+        "unit": "ml"
+      },
+      {
+        "id": "green chili",
+        "quantity": 1.0,
+        "unit": "piece"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Cut pork into bite-size cubes. Quarter onion and tomatoes; slice radish, trim beans and wash water spinach.",
+      "Put pork, onion and tomatoes in a pot with 900 ml water. Bring to a boil, skim and simmer for 45–60 minutes until pork is tender. Add water to maintain the broth.",
+      "Add radish and beans. Simmer until tender, then stir in seedless tamarind paste, fish sauce and the whole green chili.",
+      "Add water spinach and cook until tender. Check pork doneness. Taste and adjust the sourness gradually, as tamarind strength varies."
+    ],
+    "notes": "Contains fish sauce. Tamarind paste varies in concentration; begin with part of the listed amount and taste. Soup mix is not equivalent to pure tamarind paste; follow its package directions if adapting.",
+    "provenance": {
+      "author": "Wikibooks contributors; adapted by Fridge & Fork (AI-assisted)",
+      "created": "2026-10-22",
+      "origin": "Adapted from Sinigang (Philippine Sour Soup)",
+      "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook%3ASinigang_%28Philippine_Sour_Soup%29",
+      "revisionUrl": "https://en.wikibooks.org/w/index.php?oldid=4605288",
+      "historyUrl": "https://en.wikibooks.org/wiki/Cookbook%3ASinigang_%28Philippine_Sour_Soup%29?action=history",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "accessed": "2026-10-22",
+      "changes": "Defined two-serving quantities and timing; chose seedless tamarind paste, replaced source horseradish with radish, omitted taro/MSG/extra salt and used a direct simmer.",
+      "rights": "This adapted recipe record is available under CC BY-SA 4.0. Attribution and ShareAlike apply. No endorsement by Wikibooks contributors is implied.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
   }
 ]

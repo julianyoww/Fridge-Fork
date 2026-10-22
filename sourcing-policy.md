@@ -1,6 +1,6 @@
 # Recipe sourcing and review policy
 
-This release contains 40 independently composed, AI-assisted drafts and 10 Filipino recipe adaptations from Wikibooks. None has been kitchen-tested by Fridge & Fork. No third-party recipe photography is included. Openly licensed does not mean copyright-free or a guarantee of accuracy.
+This release contains 40 independently composed, AI-assisted drafts and 15 Filipino recipe adaptations from Wikibooks. None has been kitchen-tested by Fridge & Fork. No third-party recipe photography is included. Openly licensed does not mean copyright-free or a guarantee of accuracy.
 
 ## Licensed Filipino collection
 
@@ -10,7 +10,7 @@ License: https://creativecommons.org/licenses/by-sa/4.0/
 Source policy: https://en.wikibooks.org/wiki/Wikibooks:Copyrights
 Source and license check: 2026-10-22.
 
-The first batch covers champorado, maja blanca, lumpiang Shanghai, kare-kare, paksiw na bangus, chicken sopas, pinakbet, nilagang baka, turon and Bicol Express. Quantities, time estimates and difficulty are app adaptations requiring cooking validation. This is not an exhaustive collection of online recipes. Search results with no reuse license are excluded. No images are imported.
+The first batch covers champorado, maja blanca, lumpiang Shanghai, kare-kare, paksiw na bangus, chicken sopas, pinakbet, nilagang baka, turon and Bicol Express. Quantities, time estimates and difficulty are app adaptations requiring cooking validation. The second batch adds pork binagoongan with shrimp, lechon paksiw, Filipino-style spaghetti, kwek-kwek and sinigang na baboy. This is not an exhaustive collection of online recipes. Search results with no reuse license are excluded. No images are imported.
 
 Easy: straightforward techniques, possibly a long simmer. Intermediate: rolling, thickening or coordinating stages. Chef level: multiple preparations or demanding heat control. Levels are editorial estimates, not professional certification. Ingredient availability is assessed separately.
 

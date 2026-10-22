@@ -2,7 +2,7 @@
 
 An installable recipe web app: https://julianyoww.github.io/Fridge-Fork/
 
-- Explore 50 recipe drafts, including 24 Filipino dishes and 10 credited CC BY-SA adaptations.
+- Explore 55 recipe drafts, including 29 Filipino dishes and 15 credited CC BY-SA adaptations.
 - Enter fridge ingredients and optional quantities; distinguish missing ingredients, unknown quantities, and enough stock.
 - Keep cooked rice separate from uncooked rice and choose a specific minced meat type.
 - Find complementary dishes with shared ingredient quantities added together.
@@ -60,6 +60,6 @@ The deployment workflow runs the tests before publishing. Recipes remain drafts;
 
 ## Filipino tester collection (2026-10-22)
 
-Free testing release: 50 recipes, including 10 CC BY-SA 4.0 adaptations with per-recipe source/revision/history/license links. Filipino is the initial cuisine; other recipes remain accessible. Easy, Intermediate and Chef level are technique estimates independent of ingredient readiness. All recipes still need kitchen testing. Licensed source data is maintained in `data/licensed-filipino.json`; run `python3 scripts/build-recipes.py` to regenerate the catalogue and provenance. No runtime dependencies or photos added.
+Free testing release: 55 recipes, including 15 CC BY-SA 4.0 adaptations with per-recipe source/revision/history/license links. Filipino is the initial cuisine; other recipes remain accessible. Easy, Intermediate and Chef level are technique estimates independent of ingredient readiness. All recipes still need kitchen testing. Licensed source data is maintained in `data/licensed-filipino.json`; run `python3 scripts/build-recipes.py` to regenerate the catalogue and provenance. No runtime dependencies or photos added.
 
 Ask each tester to record recipe ID, servings, actual ingredients/quantities, time, confusing steps, taste and whether they would cook it again. Existing recipe feedback links open a voluntary GitHub issue; feedback is not automatically collected. Do not label a recipe tested until its results have been recorded and reviewed.
