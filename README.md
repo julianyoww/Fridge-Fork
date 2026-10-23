@@ -63,3 +63,7 @@ The deployment workflow runs the tests before publishing. Recipes remain drafts;
 Free testing release: 55 recipes, including 15 CC BY-SA 4.0 adaptations with per-recipe source/revision/history/license links. Filipino is the initial cuisine; other recipes remain accessible. Easy, Intermediate and Chef level are technique estimates independent of ingredient readiness. All recipes still need kitchen testing. Licensed source data is maintained in `data/licensed-filipino.json`; run `python3 scripts/build-recipes.py` to regenerate the catalogue and provenance. No runtime dependencies or photos added.
 
 Ask each tester to record recipe ID, servings, actual ingredients/quantities, time, confusing steps, taste and whether they would cook it again. Existing recipe feedback links open a voluntary GitHub issue; feedback is not automatically collected. Do not label a recipe tested until its results have been recorded and reviewed.
+
+### Language selector
+
+English and Filipino interface labels are available from the header. The preference is saved locally under `fridge-fork-language` and bundled for offline use. Recipe names, ingredient names, cooking instructions and source documentation retain their English text; the app discloses this limitation. No translation service receives pantry or shopping data. Add translations in `dist/i18n.js`; keep option values and recipe IDs unchanged.
