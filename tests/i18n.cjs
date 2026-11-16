@@ -25,5 +25,5 @@ test('translated cuisine options retain canonical matching values and translatio
  const html=fs.readFileSync('dist/index.html','utf8');
  assert.match(html,/<option value="International" data-i18n="International">/);
  assert.match(html,/<option value="Filipino" selected>/);
- assert.match(fs.readFileSync('dist/sw.js','utf8'),/i18n\.js\?v=12/);
+ assert.match(fs.readFileSync('dist/sw.js','utf8'),/i18n\.js\?v=13/);
 });

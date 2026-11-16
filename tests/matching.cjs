@@ -22,3 +22,11 @@ test('freestyle batch respects fish and egg diets, required quantities and sourc
  for(const [input,expected] of [['misua','dry misua'],['miswa','dry misua'],['kalabasa','squash'],['tokwa','firm tofu']])assert.equal(K.normalize(input),expected);
  const inspired=ids.map(id=>recipes.find(r=>r.id===id)).filter(r=>r.provenance.inspirationReferences);assert.equal(inspired.length,3);for(const r of inspired){assert(!r.provenance.license);assert(r.provenance.inspirationReferences[0].evidence.includes('search excerpt'));}
 });
+test('detail status formatting does not evaluate a nonexistent shortage',()=>{
+ const source=fs.readFileSync('dist/app.js','utf8');
+ const match=source.match(/\(i\.status==='short'\?[^\n]+?\[i\.status\]\)/);
+ assert(match,'Expected lazy shortage formatting in recipe detail');
+ const label=new Function('i','amountText','return '+match[0]);
+ for(const status of ['missing','unknown','enough'])assert.doesNotThrow(()=>label({status},()=>{throw Error('No shortage exists');}));
+ assert.equal(label({status:'short',shortage:2,unit:'g'},(q,u)=>q+' '+u),'need 2 g more');
+});
