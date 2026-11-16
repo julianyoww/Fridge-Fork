@@ -1,6 +1,6 @@
-const CACHE = 'fridge-fork-v11';
+const CACHE = 'fridge-fork-v12';
 const ROOT = new URL('./', self.location.href);
-const FILES = ['./','index.html','style.css?v=11','app.js?v=11','i18n.js?v=11','theme.js?v=11','install.js?v=11','library.js?v=11','calendar.js?v=11','shopping.js?v=11','matching.js?v=11','recipes.js?v=11','sourcing-policy.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png'];
+const FILES = ['./','index.html','style.css?v=12','app.js?v=12','i18n.js?v=12','theme.js?v=12','install.js?v=12','library.js?v=12','calendar.js?v=12','shopping.js?v=12','matching.js?v=12','recipes.js?v=12','sourcing-policy.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES.map(file => new URL(file, ROOT).href))));
 });

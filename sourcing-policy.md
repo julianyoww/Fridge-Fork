@@ -1,6 +1,6 @@
 # Recipe sourcing and review policy
 
-This release contains 40 independently composed, AI-assisted drafts and 15 Filipino recipe adaptations from Wikibooks. None has been kitchen-tested by Fridge & Fork. No third-party recipe photography is included. Openly licensed does not mean copyright-free or a guarantee of accuracy.
+This release contains 46 newly written, AI-assisted drafts and 15 Filipino recipe adaptations from Wikibooks. None has been kitchen-tested by Fridge & Fork. No third-party recipe photography is included. Openly licensed does not mean copyright-free or a guarantee of accuracy.
 
 ## Licensed Filipino collection
 
@@ -42,3 +42,7 @@ Presence alone is not quantity verification. Unknown quantities and incompatible
 ## Feedback and privacy
 
 No pantry, recipe history, or feedback is uploaded automatically. GitHub feedback links are voluntary, public, and require a GitHub account to submit. Avoid personal or medical details. Saved recipes and grocery lists stay on the current browser; clearing browser data removes them. No cross-device synchronization is promised.
+
+## Freestyle additions — 2026-11-17
+
+Six newly written AI-assisted drafts are maintained in `data/freestyle-recipes.json`. Three general combinations were identified in public Reddit search excerpts: sardines and misua, tuna garlic rice, and tuna with cabbage and egg. The full posts and reuse permissions were not verified. We did not import their prose, measurements or photos; ingredient amounts and cooking directions were newly composed for the app. Inspiration URLs and evidence limits are recorded per recipe. The other three drafts use general home-cooking methods. All six need kitchen testing. Facebook search did not establish a reusable source for this batch.

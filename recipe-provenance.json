@@ -723,5 +723,92 @@
     "testingStatus": "not-kitchen-tested",
     "testDate": null,
     "reviewer": null
+  },
+  {
+    "id": "sardine-misua",
+    "name": "Sardines & misua soup",
+    "author": "Fridge & Fork / AI-assisted draft",
+    "created": "2026-11-17",
+    "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post. Combination inspiration (search excerpt only): https://www.reddit.com/r/filipinofood/comments/1nc9k4o",
+    "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+    "testingStatus": "not-kitchen-tested",
+    "testDate": null,
+    "reviewer": null,
+    "inspirationReferences": [
+      {
+        "url": "https://www.reddit.com/r/filipinofood/comments/1nc9k4o",
+        "accessed": "2026-11-17",
+        "evidence": "Public search excerpt only; full post could not be verified. Used only to identify a general ingredient combination."
+      }
+    ]
+  },
+  {
+    "id": "tuna-garlic-rice",
+    "name": "Freestyle tuna garlic rice",
+    "author": "Fridge & Fork / AI-assisted draft",
+    "created": "2026-11-17",
+    "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post. Combination inspiration (search excerpt only): https://www.reddit.com/r/filipinofood/comments/1bup83v",
+    "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+    "testingStatus": "not-kitchen-tested",
+    "testDate": null,
+    "reviewer": null,
+    "inspirationReferences": [
+      {
+        "url": "https://www.reddit.com/r/filipinofood/comments/1bup83v",
+        "accessed": "2026-11-17",
+        "evidence": "Public search excerpt only; full post could not be verified. Used only to identify a general ingredient combination."
+      }
+    ]
+  },
+  {
+    "id": "tuna-cabbage-eggs",
+    "name": "Tuna, repolyo & egg skillet",
+    "author": "Fridge & Fork / AI-assisted draft",
+    "created": "2026-11-17",
+    "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post. Combination inspiration (search excerpt only): https://www.reddit.com/r/filipinofood/comments/1bkmals",
+    "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+    "testingStatus": "not-kitchen-tested",
+    "testDate": null,
+    "reviewer": null,
+    "inspirationReferences": [
+      {
+        "url": "https://www.reddit.com/r/filipinofood/comments/1bkmals",
+        "accessed": "2026-11-17",
+        "evidence": "Public search excerpt only; full post could not be verified. Used only to identify a general ingredient combination."
+      }
+    ]
+  },
+  {
+    "id": "tofu-cabbage-garlic",
+    "name": "Freestyle tokwa & repolyo",
+    "author": "Fridge & Fork / AI-assisted draft",
+    "created": "2026-11-17",
+    "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post.",
+    "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+    "testingStatus": "not-kitchen-tested",
+    "testDate": null,
+    "reviewer": null
+  },
+  {
+    "id": "sardine-potato-patties",
+    "name": "Freestyle sardine potato patties",
+    "author": "Fridge & Fork / AI-assisted draft",
+    "created": "2026-11-17",
+    "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post.",
+    "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+    "testingStatus": "not-kitchen-tested",
+    "testDate": null,
+    "reviewer": null
+  },
+  {
+    "id": "squash-coconut-tofu",
+    "name": "Ginataang kalabasa with tofu",
+    "author": "Fridge & Fork / AI-assisted draft",
+    "created": "2026-11-17",
+    "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post.",
+    "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+    "testingStatus": "not-kitchen-tested",
+    "testDate": null,
+    "reviewer": null
   }
 ]

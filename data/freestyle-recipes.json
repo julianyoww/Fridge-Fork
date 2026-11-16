@@ -1,0 +1,377 @@
+[
+  {
+    "id": "sardine-misua",
+    "name": "Sardines & misua soup",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "Cook a simple soup or skillet in stages.",
+    "items": [
+      {
+        "id": "canned sardines",
+        "quantity": 180.0,
+        "unit": "g"
+      },
+      {
+        "id": "dry misua",
+        "quantity": 60.0,
+        "unit": "g"
+      },
+      {
+        "id": "tomatoes",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "garlic",
+        "quantity": 2.0,
+        "unit": "clove"
+      },
+      {
+        "id": "oil",
+        "quantity": 10.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Chop the onion and tomatoes and mince the garlic. Drain plain canned sardines; the listed weight is drained fish.",
+      "Warm oil in a saucepan over medium heat. Cook onion for 3 minutes, stir in garlic, then soften tomatoes for about 5 minutes.",
+      "Add 650 ml drinking water and bring to a boil. Add the sardines and return to a simmer.",
+      "Separate the dry misua into the broth and cook for the packet time, stirring gently. Add hot water if too thick and serve as soon as the noodles are tender."
+    ],
+    "notes": "Fish and wheat. This version uses plain drained sardines plus fresh tomatoes, not a can weighed with tomato sauce. Water is additional to the listed pantry ingredients. Time is an estimate.",
+    "provenance": {
+      "author": "Fridge & Fork / AI-assisted draft",
+      "created": "2026-11-17",
+      "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post. Combination inspiration (search excerpt only): https://www.reddit.com/r/filipinofood/comments/1nc9k4o",
+      "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null,
+      "inspirationReferences": [
+        {
+          "url": "https://www.reddit.com/r/filipinofood/comments/1nc9k4o",
+          "accessed": "2026-11-17",
+          "evidence": "Public search excerpt only; full post could not be verified. Used only to identify a general ingredient combination."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tuna-garlic-rice",
+    "name": "Freestyle tuna garlic rice",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "Cook a simple soup or skillet in stages.",
+    "items": [
+      {
+        "id": "canned tuna",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "cooked rice",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "id": "carrots",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "id": "garlic",
+        "quantity": 3.0,
+        "unit": "clove"
+      },
+      {
+        "id": "soy sauce",
+        "quantity": 15.0,
+        "unit": "ml"
+      },
+      {
+        "id": "oil",
+        "quantity": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Drain the tuna, grate the carrot and mince the garlic. Break apart promptly chilled cooked rice.",
+      "Heat oil in a wide pan over medium heat. Cook carrot with 30 ml water for 3–4 minutes; stir in garlic for 30 seconds.",
+      "Add rice, tuna and soy sauce. Stir frequently, breaking up rice clumps and spreading the mixture across the pan.",
+      "Cook until hot throughout and check the reheating guidance below. Use separate batches if the pan is crowded; serve immediately."
+    ],
+    "notes": "Freestyle app draft, not a traditional fixed recipe. Fish and soy; soy sauce may contain wheat. Use safely chilled rice, not rice left at room temperature.",
+    "provenance": {
+      "author": "Fridge & Fork / AI-assisted draft",
+      "created": "2026-11-17",
+      "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post. Combination inspiration (search excerpt only): https://www.reddit.com/r/filipinofood/comments/1bup83v",
+      "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null,
+      "inspirationReferences": [
+        {
+          "url": "https://www.reddit.com/r/filipinofood/comments/1bup83v",
+          "accessed": "2026-11-17",
+          "evidence": "Public search excerpt only; full post could not be verified. Used only to identify a general ingredient combination."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tuna-cabbage-eggs",
+    "name": "Tuna, repolyo & egg skillet",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "Cook a simple soup or skillet in stages.",
+    "items": [
+      {
+        "id": "canned tuna",
+        "quantity": 150.0,
+        "unit": "g"
+      },
+      {
+        "id": "cabbage",
+        "quantity": 250.0,
+        "unit": "g"
+      },
+      {
+        "id": "eggs",
+        "quantity": 2.0,
+        "unit": "piece"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "oil",
+        "quantity": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Drain tuna, shred washed cabbage and chop onion. Crack eggs into a clean bowl and beat.",
+      "Heat oil in a wide pan over medium heat. Soften onion for 3 minutes, then add cabbage and 40 ml water.",
+      "Cover for 4–6 minutes until cabbage is tender. Uncover and let most moisture evaporate, then fold in tuna.",
+      "Pour in beaten eggs and stir gently through the vegetables until set throughout. Check the egg-dish temperature guidance before serving."
+    ],
+    "notes": "Fish and eggs. Serve as ulam; rice is a separate dish and is not included in ingredient readiness.",
+    "provenance": {
+      "author": "Fridge & Fork / AI-assisted draft",
+      "created": "2026-11-17",
+      "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post. Combination inspiration (search excerpt only): https://www.reddit.com/r/filipinofood/comments/1bkmals",
+      "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null,
+      "inspirationReferences": [
+        {
+          "url": "https://www.reddit.com/r/filipinofood/comments/1bkmals",
+          "accessed": "2026-11-17",
+          "evidence": "Public search excerpt only; full post could not be verified. Used only to identify a general ingredient combination."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tofu-cabbage-garlic",
+    "name": "Freestyle tokwa & repolyo",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 25,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "Cook a simple soup or skillet in stages.",
+    "items": [
+      {
+        "id": "firm tofu",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "id": "cabbage",
+        "quantity": 250.0,
+        "unit": "g"
+      },
+      {
+        "id": "garlic",
+        "quantity": 3.0,
+        "unit": "clove"
+      },
+      {
+        "id": "soy sauce",
+        "quantity": 15.0,
+        "unit": "ml"
+      },
+      {
+        "id": "vinegar",
+        "quantity": 10.0,
+        "unit": "ml"
+      },
+      {
+        "id": "oil",
+        "quantity": 20.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Drain and dry the tofu, then cut into small cubes. Shred washed cabbage and mince garlic.",
+      "Heat oil in a wide nonstick pan over medium heat. Brown tofu on several sides, then lift onto a plate.",
+      "Cook cabbage and garlic in the pan with 50 ml water for about 5 minutes, stirring until cabbage softens.",
+      "Return tofu and add soy sauce and vinegar. Simmer and turn gently for 3–5 minutes until everything is hot and the sauce lightly coats it."
+    ],
+    "notes": "Freestyle app draft. Soy; soy sauce may contain wheat. Rice is not included. No fish sauce or oyster sauce is required.",
+    "provenance": {
+      "author": "Fridge & Fork / AI-assisted draft",
+      "created": "2026-11-17",
+      "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post.",
+      "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "sardine-potato-patties",
+    "name": "Freestyle sardine potato patties",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 40,
+    "servings": 2,
+    "difficulty": "intermediate",
+    "difficultyReason": "Shape delicate patties and control pan heat while turning.",
+    "items": [
+      {
+        "id": "canned sardines",
+        "quantity": 180.0,
+        "unit": "g"
+      },
+      {
+        "id": "potatoes",
+        "quantity": 250.0,
+        "unit": "g"
+      },
+      {
+        "id": "eggs",
+        "quantity": 1.0,
+        "unit": "piece"
+      },
+      {
+        "id": "all purpose flour",
+        "quantity": 25.0,
+        "unit": "g"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "oil",
+        "quantity": 25.0,
+        "unit": "ml"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Peel potatoes and cut into small cubes. Boil in water until completely tender, about 12–15 minutes. Drain well, mash and let steam escape.",
+      "Drain sardines and mash them with the potatoes. Finely chop onion and mix it in with the egg and flour.",
+      "Form six small patties no thicker than 1 cm. If too soft to lift, let the mixture cool further and use a spoon to place portions in the pan.",
+      "Heat oil in a nonstick frying pan over medium heat. Fry in batches, turning carefully, until both sides are golden and the center reaches 71°C. Colour alone does not prove the egg is cooked."
+    ],
+    "notes": "Freestyle app draft. Fish, eggs and wheat. Uses drained plain sardines. Estimated time includes boiling potatoes; fragile patties need careful turning.",
+    "provenance": {
+      "author": "Fridge & Fork / AI-assisted draft",
+      "created": "2026-11-17",
+      "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post.",
+      "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  },
+  {
+    "id": "squash-coconut-tofu",
+    "name": "Ginataang kalabasa with tofu",
+    "cuisine": "Filipino",
+    "role": "main",
+    "time": 35,
+    "servings": 2,
+    "difficulty": "easy",
+    "difficultyReason": "Cook a simple soup or skillet in stages.",
+    "items": [
+      {
+        "id": "squash",
+        "quantity": 350.0,
+        "unit": "g"
+      },
+      {
+        "id": "firm tofu",
+        "quantity": 250.0,
+        "unit": "g"
+      },
+      {
+        "id": "coconut milk",
+        "quantity": 200.0,
+        "unit": "ml"
+      },
+      {
+        "id": "onion",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "id": "garlic",
+        "quantity": 2.0,
+        "unit": "clove"
+      },
+      {
+        "id": "oil",
+        "quantity": 10.0,
+        "unit": "ml"
+      },
+      {
+        "id": "salt",
+        "quantity": 1.0,
+        "unit": "g"
+      }
+    ],
+    "optional": [],
+    "steps": [
+      "Peel and deseed the squash and weigh 350 g of flesh. Cut into 2 cm cubes. Drain and cube tofu; chop onion and garlic.",
+      "Warm oil in a saucepan over medium heat. Soften onion for 3 minutes, then stir in garlic for 30 seconds.",
+      "Add squash, coconut milk, salt and 150 ml water. Bring to a gentle simmer, cover loosely and cook for 12–15 minutes, stirring occasionally.",
+      "Add tofu and simmer gently for another 5–8 minutes until squash is easily pierced and tofu is hot throughout. Add a little water if needed to prevent sticking."
+    ],
+    "notes": "Home-style app draft. Soy and coconut. Uses unsweetened coconut milk. No shrimp paste or fish sauce is required; rice is separate.",
+    "provenance": {
+      "author": "Fridge & Fork / AI-assisted draft",
+      "created": "2026-11-17",
+      "origin": "Newly written home-cooking draft using general cooking methods. Not a reproduction of a community post.",
+      "rights": "No third-party recipe prose or photos incorporated. Inspiration links are not reuse licenses or endorsements. No guarantee of exclusive copyright.",
+      "testingStatus": "not-kitchen-tested",
+      "testDate": null,
+      "reviewer": null
+    }
+  }
+]

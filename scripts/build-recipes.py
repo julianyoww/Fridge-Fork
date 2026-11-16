@@ -52,6 +52,7 @@ for r in rows:
     r['difficulty']='intermediate' if r['id'] in intermediate else 'easy'
     r['difficultyReason']='Control pan heat and coordinate several cooking stages.' if r['difficulty']=='intermediate' else 'Everyday preparation with a straightforward cooking method; time can still be long.'
 rows.extend(json.loads(Path('data/licensed-filipino.json').read_text()))
+rows.extend(json.loads(Path('data/freestyle-recipes.json').read_text()))
 assert len({r['id'] for r in rows})==len(rows)
 
 Path('dist/recipes.js').write_text('/* Recipe drafts and CC BY-SA adaptations; see per-record provenance and sourcing-policy.html. */\nconst RECIPE_DATA = '+json.dumps(rows,ensure_ascii=False,indent=2)+';\n')

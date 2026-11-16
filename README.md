@@ -2,7 +2,7 @@
 
 An installable recipe web app: https://julianyoww.github.io/Fridge-Fork/
 
-- Explore 55 recipe drafts, including 29 Filipino dishes and 15 credited CC BY-SA adaptations.
+- Explore 61 recipe drafts, including 35 Filipino dishes and 15 credited CC BY-SA adaptations.
 - Enter fridge ingredients and optional quantities; distinguish missing ingredients, unknown quantities, and enough stock.
 - Keep cooked rice separate from uncooked rice and choose a specific minced meat type.
 - Find complementary dishes with shared ingredient quantities added together.
@@ -60,10 +60,14 @@ The deployment workflow runs the tests before publishing. Recipes remain drafts;
 
 ## Filipino tester collection (2026-10-22)
 
-Free testing release: 55 recipes, including 15 CC BY-SA 4.0 adaptations with per-recipe source/revision/history/license links. Filipino is the initial cuisine; other recipes remain accessible. Easy, Intermediate and Chef level are technique estimates independent of ingredient readiness. All recipes still need kitchen testing. Licensed source data is maintained in `data/licensed-filipino.json`; run `python3 scripts/build-recipes.py` to regenerate the catalogue and provenance. No runtime dependencies or photos added.
+Free testing release: 61 recipes, including 15 CC BY-SA 4.0 adaptations with per-recipe source/revision/history/license links. Filipino is the initial cuisine; other recipes remain accessible. Easy, Intermediate and Chef level are technique estimates independent of ingredient readiness. All recipes still need kitchen testing. Licensed source data is maintained in `data/licensed-filipino.json`; run `python3 scripts/build-recipes.py` to regenerate the catalogue and provenance. No runtime dependencies or photos added.
 
 Ask each tester to record recipe ID, servings, actual ingredients/quantities, time, confusing steps, taste and whether they would cook it again. Existing recipe feedback links open a voluntary GitHub issue; feedback is not automatically collected. Do not label a recipe tested until its results have been recorded and reviewed.
 
 ### Language selector
 
 English and Filipino interface labels are available from the header. The preference is saved locally under `fridge-fork-language` and bundled for offline use. Recipe names, ingredient names, cooking instructions and source documentation retain their English text; the app discloses this limitation. No translation service receives pantry or shopping data. Add translations in `dist/i18n.js`; keep option values and recipe IDs unchanged.
+
+### Freestyle batch — 2026-11-17
+
+Six new drafts in `data/freestyle-recipes.json` bring the collection to 61 recipes / 35 Filipino. Three use ingredient-combination ideas from Reddit search excerpts, with newly written quantities and instructions and explicit provenance limits. No third-party prose or photos were imported. The other three are app-composed home-style drafts. Rebuild with `python3 scripts/build-recipes.py`. No new services, dependencies or data collection.
