@@ -10,7 +10,7 @@ const I18n = (() => {
   "Find a meal": "Maghanap ng lutuin",
   "My recipes": "Mga recipe ko",
   "Shopping list": "Listahan ng bibilhin",
-  "Anong luto natin?": "Anong luto natin?",
+  "What shall we cook?": "Anong luto natin?",
   "Filipino favourites, from everyday meals to a weekend cooking challenge.": "Mga paboritong pagkaing Pinoy, mula sa simpleng ulam hanggang sa mas mahirap na lutuin.",
   "Your fridge": "Laman ng ref",
   "Add a few ingredients. Quantities are optional.": "Maglagay ng mga sangkap. Puwedeng idagdag ang dami mamaya.",

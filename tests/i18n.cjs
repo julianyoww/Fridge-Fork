@@ -5,10 +5,11 @@ const fs=require('node:fs');
 function load(saved,blocked=false){
  const writes=[],events=[],select={value:'',addEventListener(){}};
  const label={dataset:{i18n:'Shopping list'},textContent:''};
- const document={documentElement:{lang:''},querySelectorAll:q=>q==='[data-i18n]'?[label]:[],querySelector:()=>select,dispatchEvent:e=>events.push(e.type)};
+ const heading={dataset:{i18n:fs.readFileSync('dist/index.html','utf8').match(/<h1><span data-i18n="([^"]+)"/)[1]},textContent:''};
+ const document={documentElement:{lang:''},querySelectorAll:q=>q==='[data-i18n]'?[label,heading]:[],querySelector:()=>select,dispatchEvent:e=>events.push(e.type)};
  const context={document,Event:class{constructor(type){this.type=type;}},localStorage:{getItem(){if(blocked)throw Error();return saved;},setItem(k,v){if(blocked)throw Error();writes.push([k,v]);}},module:{exports:{}}};
  vm.runInNewContext(fs.readFileSync('dist/i18n.js','utf8'),context);
- return {api:context.module.exports,document,label,select,writes,events};
+ return {api:context.module.exports,document,label,heading,select,writes,events};
 }
 test('language persists, changes document semantics and restores English without changing recipe content',()=>{
  const x=load('fil');assert.equal(x.label.textContent,'Listahan ng bibilhin');assert.equal(x.document.documentElement.lang,'fil');
@@ -25,5 +26,12 @@ test('translated cuisine options retain canonical matching values and translatio
  const html=fs.readFileSync('dist/index.html','utf8');
  assert.match(html,/<option value="International" data-i18n="International">/);
  assert.match(html,/<option value="Filipino" selected>/);
- assert.match(fs.readFileSync('dist/sw.js','utf8'),/i18n\.js\?v=13/);
+ assert.match(fs.readFileSync('dist/sw.js','utf8'),/i18n\.js\?v=14/);
+});
+
+test('main heading follows English and Filipino selection in both directions',()=>{
+ const x=load('en');assert.equal(x.heading.textContent,'What shall we cook?');
+ x.api.setLanguage('fil');assert.equal(x.heading.textContent,'Anong luto natin?');
+ x.api.setLanguage('en');assert.equal(x.heading.textContent,'What shall we cook?');
+ assert.equal(load('fil').heading.textContent,'Anong luto natin?');
 });
